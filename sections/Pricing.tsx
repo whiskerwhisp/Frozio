@@ -50,11 +50,11 @@ import React from 'react'
 
 const pricing = () => {
   return (
-    <section className="py-24">
+    <section className="bg-gradient-to-b from-[#FFD4E1] to-white py-24 overflow-x-clip">
      <div className="container">
       <div className="max-w-[540px] mx-auto">
-<h2 className="my-Heading">A sweeter way to scoop happiness</h2>
-<p className="para mt-5">
+<h2 className="my-Heading">Happiness Served Fresh۫</h2>
+<p className="para mt-5 font-jetBrains">
 From classic cones to dreamy sundaes, Frozio brings the magic of ice cream right to your taste buds. 
 Fresh flavors, creamy textures, and smiles in every bite — that’s our promise.
 </p>

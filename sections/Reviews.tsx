@@ -6,61 +6,59 @@ import Image from "next/image"
 import {motion} from "framer-motion";
 const reviews = [
   {
-    text: "This mango sorbet is a burst of tropical joy in every spoonful. Perfectly tangy and refreshing!",
-    imageSrc: dawg,
-    name: "Lila Summers",
-    username: "@sorbetqueen",
+    "text": "I can’t get enough of Frozio! The creamy flavors turn every scoop into a little celebration. Absolutely amazing!",
+    "imageSrc": dawg,
+    "name": "Sarah Johnson",
+    "username": "@SarahSweets"
   },
   {
-    text: "I tried the double chocolate fudge and it honestly changed my life. Rich, creamy, and just the right amount of sweet.",
-    imageSrc: dawg,
-    name: "Aaron Blake",
-    username: "@chocofanatic",
+    "text": "Every visit to Frozio is a treat! The unique flavors and friendly service make it the perfect spot to cool off. Love it!",
+    "imageSrc": dawg,
+    "name": "Michael Torres",
+    "username": "@MikeTreats"
   },
   {
-    text: "Their pistachio flavor is elite. Nutty, smooth, and not too sweet—just how I like it.",
-    imageSrc: dawg,
-    name: "Maya Lin",
-    username: "@pistachiopro",
+    "text": "The ice cream here is incredible! The bold new flavors are a hit, and the classics feel so nostalgic. Highly recommend!",
+    "imageSrc": dawg,
+    "name": "Emily Rivera",
+    "username": "@EmIceCream"
   },
   {
-    text: "I wasn't even an ice-cream person until I had their caramel swirl. Addictive in the best way possible.",
-    imageSrc: dawg,
-    name: "Theo Wright",
-    username: "@sweetobsessed",
+    "text": "Frozio has the best treats around! Every bite is so rich and satisfying—beautifully presented too!",
+    "imageSrc": dawg,
+    "name": "David Lee",
+    "username": "@DavidDesserts"
   },
   {
-    text: "Strawberry cheesecake in a cone? Yes please! Tastes like a summer picnic in dessert form.",
-    imageSrc: dawg,
-    name: "Nina Patel",
-    username: "@dessertdreamer",
-  },
-
-  {
-    text: "Strawberry cheesecake in a cone? Yes please! Tastes like a summer picnic in dessert form.",
-    imageSrc: dawg,
-    name: "Nina Patel",
-    username: "@dessertdreamer",
+    "text": "What a gem! The ice cream is perfectly sweet, and the summer vibe makes it a must-visit. Love it!",
+    "imageSrc":dawg,
+    "name": "Priya Sharma",
+    "username": "@PriyaPops"
   },
   {
-    text: "Strawberry cheesecake in a cone? Yes please! Tastes like a summer picnic in dessert form.",
-    imageSrc: dawg,
-    name: "Nina Patel",
-    username: "@dessertdreamer",
+    "text": "I built my own box, and it was a party favorite! Frozio’s variety and quality are top-notch!",
+    "imageSrc": dawg,
+    "name": "James Patel",
+    "username": "@JamesJ scoops"
   },
   {
-    text: "Strawberry cheesecake in a cone? Yes please! Tastes like a summer picnic in dessert form.",
-    imageSrc: dawg,
-    name: "Nina Patel",
-    username: "@dessertdreamer",
+    "text": "This is the creamiest ice cream I’ve ever tasted! The sprinkle-topped scoops are my favorite—delicious!",
+    "imageSrc": dawg,
+    "name": "Laura Martinez",
+    "username": "@LauraLicks"
   },
-
   {
-    text: "Strawberry cheesecake in a cone? Yes please! Tastes like a summer picnic in dessert form.",
-    imageSrc: dawg,
-    name: "Nina Patel",
-    username: "@dessertdreamer",
+    "text": "Frozio is fantastic! The friendly service and amazing flavors keep me coming back. Five stars!",
+    "imageSrc":dawg,
+    "name": "Ahmed Khan",
+    "username": "@AhmedCool"
   },
+  {
+    "text": "Every visit is a joy! The unique flavors and cozy atmosphere make this the best ice cream spot around!",
+    "imageSrc": dawg,
+    "name": "Rachel Green",
+    "username": "@RachelRaves"
+  }
 ];
 
 const firstColumn = reviews.slice(0,3);
@@ -103,8 +101,8 @@ const Reviews = () => {
         <div className="flex justify-center">
         <div className="tag">Reviews</div>
         </div>
-        <h2 className="my-Heading mt-5">What our Customers says</h2>
-        <p className="para">Real reviews from real customers who cant get enough of our delicious treats</p>
+        <h2 className="my-Heading mt-5">What Our Customers Says 𐙚˙⋆.</h2>
+        <p className="para font-jetBrains">Real reviews from real customers who cant get enough of our delicious treats</p>
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">
   <ReviewsColumn reviews={firstColumn} duration={15}/>
 <ReviewsColumn reviews={secondColumn} className="hidden md:block duration={19}"/>

@@ -1,28 +1,21 @@
-
-import Image from "next/image"
 import { Menu } from "lucide-react";
 
 const Header = () => {
 
   return (
-    <header className="sticky top-0 backdrop-blur-sm z-20 bg-[#DAE8FF]/80">
-      <div className="flex justify-center items-center py-3 bg-[#DAE8FF] text-pink-400 text-sm">
-        <p>welcome to Frozio 𓎦🍨</p>
-      </div>
+    <header className="sticky top-0 backdrop-blur-sm z-20 bg-[#DAE8FF]/60">
       <div className="py-5 px-3">
         <div>
-          <div className="flex items-center justify-between">
-            <Image
-              src={"/assets/logo.jpg"} height={40} width={40} alt="logo" />
+          <div className="flex items-center justify-between px-7">
+            <p className="text-[#0b1957] text-xl font-bold font-jersey">Welcome To Frozio 𓎦</p>
+           
             <Menu className="md:hidden" />
 
-            <nav className="hidden md:flex gap-5 text-black/60 items-center">
-              <a href="">about</a>
-              <a href="">features</a>
-              <a href="">customers</a>
-              <a href="">updates</a>
-              <a href="">help</a>
-              <button className="btn btn-primary">get ur fav ice-cream</button>
+            <nav className="hidden md:flex gap-5 text-[#0b1957]/60 font-bold items-center p-4">
+              <a href="">Home</a>
+              <a href="">Products</a>
+              <a href="">Boxs</a>
+              <a href="">Contact</a>
             </nav>
           </div>
         </div>

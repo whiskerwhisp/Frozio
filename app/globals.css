@@ -1,28 +1,32 @@
 @import "tailwindcss";
-/* @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *)); */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@theme {
+  --font-jetBrains:"JetBrains Mono", monospace;
+}
 
 .my-Heading{
-    @apply text-center text-3xl md:text-5xl font-bold tracking-tighter bg-gradient-to-b from-[#f89ea9] to-[#fac8bf] text-transparent bg-clip-text
+    @apply text-center text-3xl md:text-5xl font-extrabold tracking-tighter bg-gradient-to-b from-[#dd3872] to-[#f397b7] text-transparent bg-clip-text cursor-default
 }
+
 .para{
-  @apply text-center p-2 text-lg md:text-xl lg:text-2xl tracking-tight text-[#010D3E] mt-3 md:mt-5
+  @apply text-center p-2 text-lg md:text-xl lg:text-2xl tracking-tight text-[#0b1957] mt-3 md:mt-5
 }
 .btn{
   @apply px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight
 }
 
 .btn-primary{
-  @apply bg-black text-white;
+  @apply bg-[#ffafcc] text-[#0b1957];
 }
 
 .btn-text{
-  @apply text-black bg-transparent;
+  @apply text-[#0b1957] bg-transparent;
 }
 
 .tag{
-  @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight;
+  @apply text-sm inline-flex border  text-[#0b1957] border-[#222]/10 px-3 py-2 rounded-lg tracking-tight cursor-default;
 }
 .card{
   @apply p-10 border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full;

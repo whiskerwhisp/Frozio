@@ -28,7 +28,7 @@ const LogoTicker = () => {
             }}
           >
             {[...flavors, ...flavors].map((flavor, idx) => (
-              <div key={idx} className="flex items-center gap-1">
+              <div key={idx} className="flex items-center gap-1 text-[#0b1957]">
                 <Image
                   src={flavor.src}
                   height={40}

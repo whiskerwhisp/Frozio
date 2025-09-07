@@ -16,8 +16,8 @@ const CallToAction = () => {
     <section ref={sectionRef} className="bg-gradient-to-b from-white to-[#FFD4E1] py-24 overflow-x-clip">
       <div className="container">
         <div className="section-heading relative">
-          <h2 className="my-Heading m-5">Get your fav Ice-cream today :3</h2>
-          <p className="para mt-5">Chill out with our creamy, dreamy flavors made fresh every day just for you!</p>
+          <h2 className="my-Heading m-5">۶ৎScoop Yours Today</h2>
+          <p className="para mt-5 font-jetBrains">Chill out with our creamy, dreamy flavors made fresh every day just for you!</p>
           <motion.img
             src={"/assets/bowl.png"}
             alt="iceCreamBowl"
@@ -39,8 +39,8 @@ const CallToAction = () => {
             }} />
         </div>
         <div className="flex gap-2 mt-10 justify-center">
-          <button className="bg-black text-white px-4 py-2 ml-5 rounded-lg font-medium inline-flex items-center justify-center">Order Now</button>
-          <button className="text-black bg-transparent ml-5"> <span>check flavours </span>
+          <button className="btn-primary px-4 py-2 ml-5 rounded-lg font-medium inline-flex items-center justify-center">Order Now</button>
+          <button className="text-black bg-transparent ml-5"><span>check flavours </span>
             <MoveRight className="h-5 w-5 inline-flex m-1" />
           </button>
         </div>

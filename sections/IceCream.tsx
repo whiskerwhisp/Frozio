@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image";
-import chocoCone from "../public/assets/chocolate-cone.png"
-import vanillaCone from "../public/assets/vanilla-cone.png"
+import chocoCone from "../public/assets/cone.png"
+import vanillaCone from "../public/assets/cone.png"
 import {
   Carousel,
   CarouselContent,
@@ -61,9 +61,4 @@ const IceCream = () => {
 }
 
 export default IceCream;
-
-
- 
-
-
 
