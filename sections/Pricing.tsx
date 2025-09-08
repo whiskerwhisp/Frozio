@@ -64,12 +64,12 @@ Fresh flavors, creamy textures, and smiles in every bite — that’s our promis
   {title,price,description,treats, btnText},index)=>(
      <div key={index} className="card">
     <div>
-      <h3 className="text-lg font-bold text-black/50">{title}</h3>
+      <h3 className="text-lg font-bold text-[#656b97]">{title}</h3>
       <p className="text-sm text-black mt-1">{description}</p>
     </div>
     <div className="flex items-baseline gap-1 mt-[30px]">
       <span className="text-4xl font-bold tracking-tighter leading-none">${price}</span>
-       <span className="tracking-tight font-bold text-black/50">/scoop</span>
+       <span className="tracking-tight font-bold text-[#656b97]">/scoop</span>
     </div>
     <button className="btn btn-primary mt-[30px]">{btnText}</button>
     <ul className="flex flex-col gap-5 mt-8">

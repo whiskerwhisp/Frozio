@@ -7,7 +7,8 @@ import IceCream from "../sections/IceCream"
 import Pricing  from "../sections/Pricing"
 import Reviews from "../sections/Reviews"
 import CallToAction from "../sections/CallToAction"
-import Footer from "../sections/footer"
+import Contact from "../sections/Contact"
+import Footer from "../sections/Footer"
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
     <Pricing/>
     <Reviews/>
     <CallToAction/>
+    <Contact/>
     <Footer/>
  </>)}
 export default page;

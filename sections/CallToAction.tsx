@@ -40,8 +40,8 @@ const CallToAction = () => {
         </div>
         <div className="flex gap-2 mt-10 justify-center">
           <button className="btn-primary px-4 py-2 ml-5 rounded-lg font-medium inline-flex items-center justify-center">Order Now</button>
-          <button className="text-black bg-transparent ml-5"><span>check flavours </span>
-            <MoveRight className="h-5 w-5 inline-flex m-1" />
+          <button className="btn btn-text font-bold"><span>Check Flavours</span>
+            <MoveRight className="h-5 w-5 inline-flex m-1"/>
           </button>
         </div>
       </div>

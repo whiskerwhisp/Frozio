@@ -1,24 +1,33 @@
-import React from 'react'
-import { Instagram,Facebook,Twitter  } from 'lucide-react';
-import Image from 'next/image';
-const footer = () => {
+import { Instagram,Twitter,Facebook } from 'lucide-react';
+
+const Footer = () => {
   return (
-    <footer className="pt-8 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,_#DAE8FF,#FFD4E1,#DAE8FF__100%)] overflow-x-clip text-sm py-10 text-center">
-      <div className="container">
-        <div className="inline-flex relative>">
-         <Image 
-         src={"/assets/ice_cream_logo.png"} height={40} width={100} alt="logo"/>
-         </div>
-     
-      <div className="flex justify-center gap-6 mt-8">
-        <Instagram/>
-        <Facebook/>
-        <Twitter/>
+   <footer className="bg-[#e8f1fe]">
+    <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center py-4">
+      <div className="flex space-x-6 mb-4 md:px-5">
+        <a href="x.com"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Visit X page">
+          <Instagram/>
+        </a>
+          <a href="x.com"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Visit X page">
+          <Facebook/>
+        </a>
+          <a href="x.com"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Visit X page">
+          <Twitter/>
+        </a>
       </div>
-      <p className="mt-6">&copy; 2025 Frozio. All meow reserved</p>
-       </div>
-    </footer>
+      <p className="text-sm font-jetBrains md:px-5 ">&copy; 2025 Frozio, All meow reserved.</p>
+    </div>
+   </footer>
   )
 }
 
-export default footer;
+export default Footer;
