@@ -1,7 +1,11 @@
 import React from "react"
 import Image from "next/image";
-import chocoCone from "../public/assets/cone.png"
-import vanillaCone from "../public/assets/cone.png"
+import Chocolate from "../public/assets/chocolateCard.png"
+import Vanilla from "../public/assets/vanillaCard.png"
+import Strawberry from "../public/assets/strawberryCard.png"
+import Butterscotch from "../public/assets/butterscotchCard.png"
+import MintChocolate from "../public/assets/mintchocoCard.png"
+import Sundae from "../public/assets/sundaeCard.png"
 import {
   Carousel,
   CarouselContent,
@@ -12,20 +16,35 @@ import {
 
 const imageSlides = [
     {
-        image: chocoCone,
-        title: "chocolate",
-        description: "chocolate ice-cream cone"
+        image:Chocolate,
+        title: "Chocolate",
+        description: "Rich, creamy, and so-chocolaty"
     },
     {
-        image: vanillaCone,
+        image:Vanilla,
         title: "vanilla",
-        description: "chocolate ice-cream cone"
+        description:"Classic, smooth, and timelessly sweet"
     },
     {
-        image: chocoCone,
-        title: "chocolate",
-        description: "chocolate ice-cream cone"
-    }
+        image:Strawberry ,
+        title: "Strawberry",
+        description: "Fresh, fruity, and berry-licious"
+    },
+    {
+        image:Butterscotch ,
+        title: "Butterscotch",
+        description: "Caramel-crunchy with a buttery twist"
+    },
+    {
+        image:MintChocolate ,
+        title: "MintChocolate",
+        description: "Cool mint swirls with choco chunks"
+    },
+    {
+        image:Sundae ,
+        title: "Sundae",
+        description:"A delightful mix of scoops, syrup & joy"
+    },
 ]
 
 const IceCream = () => {
@@ -42,7 +61,7 @@ const IceCream = () => {
                                     alt={imageSlide.title}
                                     height={300}
                                     width={300}
-                                    className="h-64 object-cover rounded-xl"
+                                    className="h-64 object-contain rounded-xl"
                                     sizes="(max-width: 768px) 100vw, 300px"/>
                                 <div className="text-center">
                                     <h3 className="text-lg font-semibold">{imageSlide.title}</h3>
