@@ -4,7 +4,7 @@ import Header from "../sections/Header"
 import Hero from "../sections/Hero"
 import  LogoTicker from "../sections/LogoTicker"
 import IceCream from "../sections/IceCream"
-import Pricing  from "../sections/Pricing"
+import Boxes  from "../sections/Boxes"
 import Reviews from "../sections/Reviews"
 import CallToAction from "../sections/CallToAction"
 import Contact from "../sections/Contact"
@@ -17,7 +17,7 @@ const page = () => {
     <Hero/>
    <LogoTicker/>
    <IceCream/>
-    <Pricing/>
+    <Boxes/>
     <Reviews/>
     <CallToAction/>
     <Contact/>

@@ -4,10 +4,10 @@ import {useState} from "react";
 import { Menu,  X  } from "lucide-react";
 
 const LINKS = [
-  {name:"Hero", link: "#Hero"},
-{name:"IceCream", link: "#IceCream"},
-{name:"Boxs", link: "#pricing"},
-{name:"Contact", link: "#footer"}
+  {name:"Home", link: "#Hero"},
+{name:"Products", link: "#IceCream"},
+{name:"Boxes", link: "#boxes"},
+{name:"Contact", link: "#contact"}
 ]
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
