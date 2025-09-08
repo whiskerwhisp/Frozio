@@ -4,8 +4,8 @@ import {useState} from "react";
 import { Menu,  X  } from "lucide-react";
 
 const LINKS = [
-  {name:"Home", link: "#Hero"},
-{name:"Products", link: "#IceCream"},
+  {name:"Home", link: "#home"},
+{name:"Products", link: "#icecream"},
 {name:"Boxes", link: "#boxes"},
 {name:"Contact", link: "#contact"}
 ]
@@ -16,7 +16,7 @@ const Header = () => {
     <header className="sticky top-0 backdrop-blur-sm z-20 bg-[#DAE8FF]/60">
       <div className="py-5 px-3">
        
-          <div className="flex items-center justify-between px-7">
+          <div className="flex items-center justify-between px-3 md:px-7">
             <p className="text-[#0b1957] text-xl font-bold font-jersey">Welcome To Frozio 𓎦</p>
            
             <div className="md:hidden">

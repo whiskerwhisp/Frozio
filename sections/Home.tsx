@@ -3,7 +3,8 @@ import React from 'react'
 import { MoveRight } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from 'react';
-const Hero = () => {
+
+const Home = () => {
   const heroRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: heroRef,
@@ -12,7 +13,7 @@ const Hero = () => {
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
 
   return (
-    <section ref={heroRef} className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,_#DAE8FF,#FFD4E1,#DAE8FF__100%)] overflow-x-clip">
+    <section ref={heroRef} className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,_#DAE8FF,#FFD4E1,#DAE8FF__100%)] overflow-x-clip" id="home">
       <div className="container">
         <div className="md:flex items-center lg:mx-16">
           <div className="md:w-[478px]">
@@ -22,9 +23,9 @@ const Hero = () => {
 
             <div className="flex gap-1 items-center mt-[30px]">
               <button className="btn btn-primary ml-10">Build Your Box</button>
-              <button className="btn btn-text font-bold"><span> Why Frozio Scoops?</span>
+              <a href="#reviews"> <button className="btn btn-text font-bold" ><span> Why Frozio Scoops?</span>
                 <MoveRight className="h-5 w-5 inline-flex m-1" />
-              </button>
+              </button></a>
             </div>
           </div>
           <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
@@ -56,4 +57,4 @@ const Hero = () => {
   )
 }
 
-export default Hero;
+export default Home;

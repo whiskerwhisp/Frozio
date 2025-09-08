@@ -1,8 +1,8 @@
 import React from "react"
 
 import Header from "../sections/Header"
-import Hero from "../sections/Hero"
-import  LogoTicker from "../sections/LogoTicker"
+import Home from "../sections/Home"
+import LogoTicker from "../sections/LogoTicker"
 import IceCream from "../sections/IceCream"
 import Boxes  from "../sections/Boxes"
 import Reviews from "../sections/Reviews"
@@ -14,7 +14,7 @@ const page = () => {
   return (
   <>
    <Header/>
-    <Hero/>
+   <Home/>
    <LogoTicker/>
    <IceCream/>
     <Boxes/>

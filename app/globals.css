@@ -29,7 +29,7 @@
   @apply text-sm inline-flex border  text-[#0b1957] border-[#222]/10 px-3 py-2 rounded-lg tracking-tight cursor-default;
 }
 .card{
-  @apply p-10 border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full;
+  @apply p-10 border-[#e8f1fe] rounded-3xl shadow-[0_7px_14px_#e8f1fe] max-w-xs w-full;
 }
 .section-heading{
   @apply max-w-[540px] mx-auto;

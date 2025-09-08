@@ -51,7 +51,6 @@ import React from 'react'
 const Boxs = () => {
   return (
     <section className="bg-gradient-to-b from-[#FFD4E1] to-white py-24 overflow-x-clip" id="boxes">
-     <div className="container">
       <div className="max-w-[540px] mx-auto">
 <h2 className="my-Heading">Happiness Served Fresh۫</h2>
 <p className="para mt-5 font-jetBrains">
@@ -83,7 +82,6 @@ Fresh flavors, creamy textures, and smiles in every bite — that’s our promis
   ))}
  
 </div>
-     </div>
     </section>
   )
 }

@@ -96,7 +96,7 @@ const ReviewsColumn = (props:{className?:string; reviews: typeof reviews; durati
 
 const Reviews = () => {
   return (
-     <section className="bg-white py-0">
+     <section className="bg-white py-0" id="reviews">
       <div className="container">
         <div className="flex justify-center">
         <div className="tag">Reviews</div>

@@ -139,7 +139,7 @@ const imageSlides = [
 
 const IceCream = () => {
   return (
-    <section className="bg-gradient-to-b from-white to-[#FFD4E1] py-24 overflow-x-clip">
+    <section className="bg-gradient-to-b from-white to-[#FFD4E1] py-24 overflow-x-clip" id="icecream">
       <div className="container">
         <Carousel className="w-full max-w-2xl mx-auto">
           <CarouselContent>
@@ -149,9 +149,9 @@ const IceCream = () => {
                   <Image
                     src={imageSlide.image}
                     alt={imageSlide.title}
-                    height={600}
-                    width={600}
-                    className="md:w-full md:h-[60%]"/>
+                    height={400}
+                    width={400}
+                    className="md:w-full md:h-[20%]"/>
                   <div className="text-center">
                     <h3
                       className={`text-2xl font-lobster font-bold ${imageSlide.color}`}
