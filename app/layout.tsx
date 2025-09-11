@@ -1,10 +1,12 @@
-
+"use client"
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 
-const dmSans = DM_Sans({ subsets: ["latin"] });
+import { Provider } from "react-redux";
+import {store} from "../store/store";
 
+const dmSans = DM_Sans({ subsets: ["latin"] });
 
 
 export default function RootLayout({
@@ -15,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="relative">
       <body className={twMerge(dmSans.className, "antialiased")}>
-        {children}
+        <Provider store = {store}>
+         {children}
+        </Provider>
       </body>
     </html>
   );
