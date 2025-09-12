@@ -8,7 +8,6 @@ import Boxes  from "../sections/Boxes"
 import Reviews from "../sections/Reviews"
 import CallToAction from "../sections/CallToAction"
 import Contact from "../sections/Contact"
-import Cart from "../sections/Cart"
 import Footer from "../sections/Footer"
 
 const page = () => {
@@ -21,7 +20,6 @@ const page = () => {
     <Boxes/>
     <Reviews/>
     <CallToAction/>
-    <Cart/>
     <Contact/>
     <Footer/>
  </>)}

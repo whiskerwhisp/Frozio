@@ -25,42 +25,42 @@ const imageSlides = [
     title: "Chocolate",
     description: "Rich, creamy, and so-chocolaty",
     color: "text-[#a57865]",
-    price: 4.99,
+    price: 10,
   },
   {
     image: Vanilla,
     title: "Vanilla",
     description: "Classic, smooth, and timelessly sweet",
     color:"text-[#c8b086]",
-      price: 6.99
+    price: 5,
   },
   {
     image: Strawberry,
     title: "Strawberry",
     description: "Fresh, fruity, and berry-licious",
     color: "text-[#e76595]",
-      price: 8.99,
+    price:15,
   },
   {
     image: Butterscotch,
     title: "Butterscotch",
     description: "Caramel-crunchy with a buttery twist",
     color: "text-[#d2a357]",
-      price: 7.99,
+      price: 22,
   },
   {
     image: MintChocolate,
     title: "Mint Chocolate",
     description: "Cool mint swirls with choco chunks",
     color: "text-[#7ad9bd]",
-      price: 5.99,
+      price: 8,
   },
   {
     image: Sundae,
     title: "Sundae",
     description: "A delightful mix of scoops, syrup & joy",
     color: "text-[#b57edc]",
-      price: 10.99,
+      price: 20,
   },
 ];
 
@@ -89,10 +89,10 @@ const IceCream = () => {
                     <p className="text-[#656b97]">
                       {imageSlide.description}
                     </p>
-                    <p className="mt-2 text-lg font-semibold text-gray-800">
+                    <p className="mt-2 text-lg font-bold text-gray-800">
                            ${imageSlide.price.toFixed(2)}</p>
                     <button onClick={()=>dispatch(addToCart(imageSlide))}
-                    className="mt-4 bg-amber-200 px-6 py-2 rounded font-medium hover:bg-amber-300 transition">ADD
+                    className="mt-4 bg-[#ffafcc] text-[#0b1957] px-6 py-2 rounded-lg font-medium hover:bg-[#f26095] transition">ADD
                     </button>
                   </div>
                 </div>

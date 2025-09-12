@@ -13,4 +13,6 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 ];
 
-export default eslintConfig;
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {...eslintConfig, rules: {    "@typescript-eslint/no-explicit-any": "off"
+}};

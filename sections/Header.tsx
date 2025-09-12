@@ -17,12 +17,12 @@ const Header = () => {
       <div className="py-5 px-3">
        
           <div className="flex items-center justify-between px-3 md:px-7">
-            <p className="text-[#0b1957] text-xl font-bold font-jersey">Welcome To Frozio 𓎦</p>
+            <p className="text-[#0b1957] text-xl md:text-2xl font-bold font-jersey">Welcome To Frozio 𓎦</p>
            
             <div className="md:hidden">
           <button
             onClick={toggle}
-            className="text-2xl pr-2 focus:outline-none"
+            className="text-xl pt-2 focus:outline-none "
             aria-label={isOpen ? "Close" : "Open"}>
             {isOpen ? <X/> : <Menu />}
           </button>
@@ -48,3 +48,4 @@ const Header = () => {
 }
 
 export default Header;
+

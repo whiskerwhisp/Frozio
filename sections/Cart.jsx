@@ -13,7 +13,7 @@ const Cart = () => {
   );
 
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <div className="p-6 max-w-3xl mx-auto" id = "cart" >
       <h1 className="text-3xl font-bold mb-6">Your Cart</h1>
 
       {items.length === 0 ? (
