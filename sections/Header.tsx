@@ -99,13 +99,13 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
           </p>
 
           {/* Cart button - visible on all screen sizes */}
-          <button
+          {/* <button
             onClick={onCartClick}
             className="flex items-center gap-2 text-[#0b1957] font-bold hover:text-[#0b1957]/80 transition-colors"
           >
             <ShoppingCart size={24} />
             <span>({cartItems.length})</span>
-          </button>
+          </button> */}
 
           {/* Hamburger menu (mobile) */}
           <div className="md:hidden">
@@ -129,6 +129,13 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
                 {link.name}
               </a>
             ))}
+              <button
+            onClick={onCartClick}
+            className="flex items-center gap-2 text-[#0b1957] font-bold hover:text-[#0b1957]/80 transition-colors"
+          >
+            <ShoppingCart size={24} />
+            <span>({cartItems.length})</span>
+          </button>
           </nav>
         </div>
 
@@ -147,6 +154,13 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
               {link.name}
             </a>
           ))}
+            <button
+            onClick={onCartClick}
+            className="flex items-center gap-2 text-[#0b1957] font-bold hover:text-[#0b1957]/80 transition-colors"
+          >
+            <ShoppingCart size={24} />
+            <span>({cartItems.length})</span>
+          </button>
         </div>
       </div>
     </header>

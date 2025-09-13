@@ -21,6 +21,7 @@ import {
 
 const imageSlides = [
   {
+    id:1,
     image: Chocolate,
     title: "Chocolate",
     description: "Rich, creamy, and so-chocolaty",
@@ -28,6 +29,7 @@ const imageSlides = [
     price: 10,
   },
   {
+    id:2,
     image: Vanilla,
     title: "Vanilla",
     description: "Classic, smooth, and timelessly sweet",
@@ -35,6 +37,7 @@ const imageSlides = [
     price: 5,
   },
   {
+    id:3,
     image: Strawberry,
     title: "Strawberry",
     description: "Fresh, fruity, and berry-licious",
@@ -42,6 +45,7 @@ const imageSlides = [
     price:15,
   },
   {
+    id:4,
     image: Butterscotch,
     title: "Butterscotch",
     description: "Caramel-crunchy with a buttery twist",
@@ -49,6 +53,7 @@ const imageSlides = [
       price: 22,
   },
   {
+    id:5,
     image: MintChocolate,
     title: "Mint Chocolate",
     description: "Cool mint swirls with choco chunks",
@@ -56,11 +61,12 @@ const imageSlides = [
       price: 8,
   },
   {
+    id:6,
     image: Sundae,
     title: "Sundae",
     description: "A delightful mix of scoops, syrup & joy",
     color: "text-[#b57edc]",
-      price: 20,
+    price: 20,
   },
 ];
 
@@ -71,8 +77,8 @@ const IceCream = () => {
       <div className="container">
         <Carousel className="w-full max-w-2xl mx-auto">
           <CarouselContent>
-            {imageSlides.map((imageSlide, index) => (
-              <CarouselItem key={index}>
+            {imageSlides.map((imageSlide) => (
+              <CarouselItem key={imageSlide.id}>
                 <div className="flex flex-col items-center gap-6 p-6">
                   <Image
                     src={imageSlide.image}
@@ -108,3 +114,5 @@ const IceCream = () => {
 };
 
 export default IceCream;
+
+

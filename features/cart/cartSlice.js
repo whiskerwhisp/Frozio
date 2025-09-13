@@ -1,4 +1,4 @@
-import {createSlice,nanoid} from "@reduxjs/toolkit";
+import {createSlice} from "@reduxjs/toolkit";
 
 const initialState={
     items:[],
@@ -15,7 +15,7 @@ export const cartSlice = createSlice({
                 existingItem.quantity += 1;
             }else{
                 state.items.push({
-                    id: item.id || nanoid(),
+                    id: item.id,
                     title: item.title,
                     price: item.price,
                     image: item.image,
