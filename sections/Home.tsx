@@ -14,10 +14,9 @@ const Home = () => {
 
   return (
     <section ref={heroRef} className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,_#DAE8FF,#FFD4E1,#DAE8FF__100%)] overflow-x-clip" id="home">
-      <div className="container">
-        <div className="md:flex items-center lg:mx-16">
+      <div className="max-w-[1440px] mx-auto">
+        <div className="md:flex items-center lg:mx-14">
           <div className="md:w-[478px]">
-            {/* <div className="tag ml-10">It finally here</div> */}
             <h1 className="my-Heading">⋆.˚ᡣ𐭩 Scoops of Joy ⋆˚</h1>
             <p className="para font-jetBrains md:ml-6">From creamy classics to bold new flavors, our scoops are made to turn every bite into a moment of joy. Pick your favorites, mix and match, and let summer feel a little sweeter</p>
 
