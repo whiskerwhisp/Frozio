@@ -97,7 +97,6 @@ const ReviewsColumn = (props:{className?:string; reviews: typeof reviews; durati
 const Reviews = () => {
   return (
      <section className="bg-white py-0" id="reviews">
-      <div className="container">
         <div className="flex justify-center">
         <div className="tag">Reviews</div>
         </div>
@@ -107,7 +106,6 @@ const Reviews = () => {
   <ReviewsColumn reviews={firstColumn} duration={15}/>
 <ReviewsColumn reviews={secondColumn} className="hidden md:block duration={19}"/>
 <ReviewsColumn reviews={thirdColumn} className="hidden lg:block duration={17}"/>
-      </div>
       </div>
      </section>
   )

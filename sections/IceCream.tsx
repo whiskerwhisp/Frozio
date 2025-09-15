@@ -74,7 +74,7 @@ const IceCream = () => {
   const dispatch = useDispatch();
   return (
     <section className="bg-gradient-to-b from-white to-[#FFD4E1] py-24 overflow-x-clip" id="icecream">
-      <div className="container">
+      <div>
         <Carousel className="w-full max-w-2xl mx-auto">
           <CarouselContent>
             {imageSlides.map((imageSlide) => (
@@ -108,7 +108,7 @@ const IceCream = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-    </div>
+ </div>
     </section>
   );
 };

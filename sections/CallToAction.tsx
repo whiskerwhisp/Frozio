@@ -14,7 +14,6 @@ const CallToAction = () => {
 
   return (
     <section ref={sectionRef} className="bg-gradient-to-b from-white to-[#FFD4E1] py-24 overflow-x-clip">
-      <div className="container">
         <div className="section-heading relative">
           <h2 className="my-Heading m-5">۶ৎScoop Yours Today</h2>
           <p className="para mt-5 font-jetBrains">Chill out with our creamy, dreamy flavors made fresh every day just for you!</p>
@@ -44,7 +43,6 @@ const CallToAction = () => {
             <MoveRight className="h-5 w-5 inline-flex m-1"/>
           </button>
         </div>
-      </div>
     </section>
   )
 }
